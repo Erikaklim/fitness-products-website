@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.tbl-full{
+    width: 100%;
+}
+.tbl-30{
+    width: 30%;
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td{
+    padding: 1%;
+}
+
+.btn-primary{
+    background-color: #133E87;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: #608BC1;
+}
+
+.btn-secondary{
+    background-color: #688e00;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-secondary:hover{
+    background-color: #8fb133;
+}
+
+.btn-danger{
+    background-color: #e52b2b;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-danger:hover{
+    background-color: #eb6060;
+}
+
+.success{
+    color: #688e00;
+}
+.error{
+    color:  #e52b2b;
+}
+
+
+.menu{
+    border-bottom: 1px solid #133E87;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #133E87;
+}
+.menu ul li a:hover{
+    color: #608BC1;
+}
+
+.content{
+    background-color: #F3F3E0;
+    padding: 3% 0;
+}
+
+.col-4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+.footer{
+    background-color: #133E87;
+    color: white;
+}
+
+.login{
+    border: 1px solid #133E87;
+    width: 20%;
+    margin: 10% auto;
+    padding: 2%;
+    background-color: #F3F3E0;
+}
